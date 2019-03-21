@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../images/Star-Wars.jpg);
+    color: white;
+}
+
+#page-title {
+    text-align: center;
+}
+
+.row, button {
+    margin-left: 20px;
+}
+.column-2 {
+    background-color: azure;
+    border: 3px solid green;
+}
+
+.picture-heading, .health-points, #obi-wan-health {
+    text-align: center;
+    color: black;
+} 
+
+.charater-style {
+    padding: 0px 20px 5px 20px;
+    background-clip: content-box;
+}
+
+#your-character, #defender {
+    height: 115px;
+    margin-bottom: 10px;
+}

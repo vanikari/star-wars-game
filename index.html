@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars Game</title>
+
+    <!-- Linking to reset css stylesheet-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- Linking Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Linking to the external stylesheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Linking to the jQuery Library  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+
+</head>
+
+<body>
+
+    <!-- Title -->
+    <div class="container">
+            <h1 id="page-title">Star Wars RPG</h1>
+        </div>
+    
+    <!-- All the characters area -->
+        <div class="row character-area">
+            <div class="column-2 characters" id="obi-wan" value="obiWan"><h6 class="picture-heading" id="obi-wan-pic-head">Obi-Wan-Kenobi</h6><img class= "charater-style" src="assets/images/obi-wan-kenobi.jpeg" width="150px" height="70px"><h6 class="health-points" id="obi-wan-health">120</h6></div>
+            <div class="column-2 characters" id="luke-sky" value="lukeSky"><h6 class="picture-heading" id="luke-sky-pic-head">Luke Skywalker</h6><img class= "charater-style" src="assets/images/luke-skywalker.jpeg" width="150px" height="70px"><h6 class="health-points" id="luke-sky-health">100</h6></div>
+            <div class="column-2 characters" id="darth-sid" value="darthSid"><h6 class="picture-heading" id="darth-sid-pic-head">Darth Sidious</h6><img class= "charater-style" src="assets/images/darth-sidious.jpeg" width="150px" height="70px"><h6 class="health-points" id="darth-sid-health">150</h6></div>
+            <div class="column-2 characters" id="darth-maul" value="darthMaul"><h6 class="picture-heading" id="darth-maul-pic-head">Darth Maul</h6><img class= "charater-style" src="assets/images/darth-maul.jpeg" width="150px" height="70px"><h6 class="health-points" id="darth-maul-health">180</h6></div>
+        </div>
+
+    <!-- Your Charater Area -->
+        <div class="row">
+            <h4 id="your-character-text">Your Character</h4>
+        </div>
+
+        <div>
+            <div class="row" id="your-character"></div>
+        </div>
+
+    <!-- Enemies Area -->
+        <div class="row">
+            <h4 id="enemies-text">Enemies Available to Attack</h4>
+        </div>
+
+        <div>
+            <div class="row" id="enemies"></div>
+        </div>
+        
+    
+    <!-- Fight Section -->
+        <div class="row">
+            <h4 id="fight-section-text">Fight Section</h4>
+        </div>
+
+    <!-- Attack Button -->
+        <div>
+            <button id="attack">Attack</button>
+        </div>
+
+    <!-- Defender Area -->
+        <div class="row">
+            <h4 id="defender-text">Defender</h4>
+        </div>
+        <div>
+            <div class="row" id="defender"></div>
+        </div>
+        <br>
+        <div>
+            <div class="row" id="defender1"></div>
+        </div>
+
+        <div>
+            <div class="row" id="defender2"></div>
+        </div>
+
+     <!-- Restart Button -->
+    <div id="restart">
+    </div>
+
+
+
+    <!-- Linking Javascript text -->
+    <script src="assets/javascript/game.js">
+    </script>
+
+
+</body>
+</html>
+
